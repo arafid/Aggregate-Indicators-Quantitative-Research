@@ -4,15 +4,13 @@
 
 [View the portfolio case study](https://arafid.github.io/projects/aggregate-indicators/)
 
-![Preview of the original paper](assets/paper-preview.png)
-
 ## Overview
 
 What can a household income distribution reveal that an aggregate indicator such as GDP leaves out?
 
 This repository presents an independent mathematics investigation built around U.S. household-income distributions. The original paper examines how a single aggregate measure can hide the shape and spread of outcomes underneath it, then uses grouped income data to explore skewness, regression, model fit, and piecewise approximation.
 
-The original 16-page paper is included unchanged in `docs/The-Lies-of-Aggregate-Indicators.pdf`. The other files are retrospective portfolio materials that make the work easier to review and clearly separate the original analysis from later documentation.
+The original 16-page paper belongs at `docs/The-Lies-of-Aggregate-Indicators.pdf`. The other files are retrospective portfolio materials that make the work easier to review and clearly separate the original analysis from later documentation.
 
 ## Mathematical work in the original paper
 
@@ -43,12 +41,12 @@ The values are percentages of households in named income brackets, not household
 ├── README.md
 ├── NOTICE.md
 ├── assets/
-│   ├── income-brackets.svg
-│   └── paper-preview.png
+│   └── income-brackets.svg
 ├── data/
 │   └── selected-income-brackets.csv
 └── docs/
     ├── The-Lies-of-Aggregate-Indicators.pdf
+    ├── SHA256SUM.txt
     ├── method-and-limitations.md
     └── paper-guide.md
 ```
@@ -59,6 +57,7 @@ The values are percentages of households in named income brackets, not household
 - **Method and limitations:** [`docs/method-and-limitations.md`](docs/method-and-limitations.md)
 - **Paper guide:** [`docs/paper-guide.md`](docs/paper-guide.md)
 - **Selected appendix data:** [`data/selected-income-brackets.csv`](data/selected-income-brackets.csv)
+- **Original-paper checksum:** [`docs/SHA256SUM.txt`](docs/SHA256SUM.txt)
 
 ## Tools and concepts
 
@@ -69,4 +68,4 @@ The values are percentages of households in named income brackets, not household
 
 This work originated as an IB Mathematics: Applications & Interpretation HL investigation. It is presented here as an early quantitative-research project because the underlying question remains relevant to analytics: averages and headline KPIs can hide important differences inside a distribution.
 
-The original working Excel and GeoGebra files referenced in the paper are not available in this repository, so no replacement coefficients, screenshots, or fit statistics have been fabricated. The original PDF remains the authoritative record of the analysis.
+The original working Excel and GeoGebra files referenced in the paper are not available in this repository, so no replacement coefficients, screenshots, or fit statistics have been fabricated. The original PDF is the authoritative record of the analysis.
